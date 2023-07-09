@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gatumanía | Inicio</title>
+        <!--favicon // lo deje en tamaño 16x16 por lo que dijeron en clase, pero en mi pc lo veo pixelado, en 24x24 lo veia bien-->
+        <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+        <!--BOOTSTRAP CSS-->
+        <link rel="stylesheet" href="./css/bootstrap.min.css">  
+        <!--CSS--> 
+        <link rel="stylesheet" href="./css/estilos.css">
+        <!--Font Awesome--> 
+        <script src="https://kit.fontawesome.com/1a7ab603f0.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        
+        <!--HEADER--> <!--Estoy usando los comentarios para dividir el html y encontrar todo más a simple vista-->
+
+        <!--El proyecto es sobre una ONG, Gatumania, que sigo hace un tiempo (mi hermana adopto sus a gatitas ahí). La fundadora, Nati, rescata un monton de gatitos, ademas de ayudar a los que estan enfermos de PIF-->
+
+        <header class="header">
+            <a class="header__logo" href="./index.html">
+                <img class="header__logo__img" src="./assets/img/header/logo_gatumania.png" alt="logo" loading="lazy">
+                <!-- En assets -> img me hice subcarpetas para organizarme mejor las imagenes que iba a usar en cada página, de esta forma las encontraba de manera mas comoda-->
+            </a>
+            <nav>
+                <ul class="header__nav"> <!--En mi menú no esta linekada la pagina ficha porque se entra a traves de "Adopta"-->
+                    <li class="header__nav__lista"><a class="header__nav__lista__boton sinRelleno" href="#">Inicio</a></li>
+                    <li class="header__nav__lista"><a class="header__nav__lista__boton sinRelleno" href="./pages/adopta.html">Adoptá</a></li>
+                    <li class="header__nav__lista"><a class="header__nav__lista__boton sinRelleno" href="./pages/nosotros.html">Sobre Nosotros</a></li>
+                    <li class="header__nav__lista"><a class="header__nav__lista__boton rellenoBlanco" href="./pages/contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!--MAIN-->
+
+        <main class="home">
+            <section class="home__banner">
+                <div>
+                    <h1 class="home__banner__h1">Adoptar 
+                        salva vidas</h1>
+                    <h2 class="home__banner__h2">Conocé a los michis 
+                        en adopción</h2>
+                    <a class="botonRosa" href="./pages/adopta.html">Adoptá</a>
+                </div>
+            </section>
+            <section class="home__donaciones">
+                <h2 class="home__donaciones__h2">Colaborá con donaciones</h2>
+                <div class="home__donaciones__conjunto">
+                    <div class="home__donaciones__conjunto__individual">
+                        <img src="./assets/img/home/mercado_pago.png" alt="Logo Mercado Pago" loading="lazy">
+                        <a class="botonRosa" target="_blank" href="https://www.mercadopago.com.ar/checkout/v1/payment/redirect/d1a9616c-f052-4635-b2f8-614b226d1e3a/payment-option-form/?router-request-id=4269e5b8-3487-4258-a1ce-562b8c8d51bd&source=link&preference-id=804682745-2bb6551b-2c26-4d5a-8887-d721cc9eab36&p=188671ccd889cb7ea2aec1e368be1d23#/">Doná</a>
+                    </div>
+                    <div class="home__donaciones__conjunto__individual">
+                        <img src="./assets/img/home/paypal.png" alt="Logo PayPal" loading="lazy">
+                        <a class="botonRosa" target="_blank" href="https://www.paypal.com/paypalme/gatumania">Doná</a>
+                    </div>
+                    <div class="home__donaciones__conjunto__individual">
+                        <h3 class="home__donaciones__conjunto__individual__h3">Débito automático</h3>
+                        <a class="botonRosa" target="_blank" href="https://www.mercadopago.com.ar/subscriptions/checkout?preapproval_plan_id=2c9380847b629308017bacf6dced3d63">Doná</a>
+                    </div>
+                    <div class="home__donaciones__conjunto__individual">
+                        <h3 class="home__donaciones__conjunto__individual__h3">Depósito o Transferencia Bancaria</h3>
+                        <p class="home__donaciones__conjunto__individual__p">BANCO ICBC</p>
+                        <p class="home__donaciones__conjunto__individual__p">ASOCIACIÓN CIVIL GATUMANIA</p>
+                        <p class="home__donaciones__conjunto__individual__p">CC $ N°: 0521/02106318/68</p>
+                        <p class="home__donaciones__conjunto__individual__p">CUIT N°: 30-71723043-0</p>
+                        <p class="home__donaciones__conjunto__individual__p">CBU N°: 0150521402000106318683</p>
+                        <p class="home__donaciones__conjunto__individual__p">ALIAS: ONG. GATUMANIA</p>
+                    </div>
+            </div>
+            </section>
+            <section class="home__testimonios">
+                <div>
+                    <h2 class="home__testimonios__h2">Testimonios de adoptantes</h2>
+                </div>
+                <div class="home__testimonios__conjunto">
+                    <div>
+                        <img class="home__testimonios__conjunto__img" src="./assets/img/home/testimonios.png" alt="Dos gatos acompañandose en el balcón" loading="lazy">
+                    </div>
+                    <div class="home__testimonios__conjunto__texto">
+                        <h3 class="home__testimonios__conjunto__texto__h3">"Infaltable el apoyo emocional de Gatumania en este proceso, además de que nos ayudo a elegir a una compañera que vaya mejor con la personalidad de Mish. Gracias Nati!"</h3>
+                        <h4 class="home__testimonios__conjunto__texto__h4">María</h4>
+                        <p class="home__testimonios__conjunto__texto__p">Dueña de Venus</p>
+                    </div>
+                </div>
+                <!--Mi idea aca es que los testimonios sean un carrousel, pero como todavia no lo vimos deje solo uno fijo-->
+            </section>
+            <section class="home__video">
+                <h2 class="home__video__h2">Recomendaciones para adoptar un michi</h2>
+                <div class="home__video__divVideo">
+                     <iframe class="home__video__divVideo__video" width="950" height="534" src="https://www.youtube.com/embed/mjequp9g-qY" title="Cómo Elegir A Qué Gatito Adoptar" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
+                </div>
+            </section>
+        </main>
+       
+        <!--FOOTER-->
+
+        <footer class="footer">
+            <div class="footer__block1">
+                <div class="footer__block1__logo">
+                    <img class="footer__block1__logo__img" src="./assets/img/footer/isologo_gatumania.png" alt="logo" loading="lazy">  
+                </div>
+                <div>
+                    <ul class="footer__block1__nav">
+                        <li class="footer__block1__nav__lista"><a class="footer__block1__nav__lista__boton" href="#">Inicio</a></li>
+                        <li class="footer__block1__nav__lista"><a class="footer__block1__nav__lista__boton" href="./pages/adopta.html">Adoptá</a></li>
+                        <li class="footer__block1__nav__lista"><a class="footer__block1__nav__lista__boton" href="./pages/nosotros.html">Sobre Nosotros</a></li>
+                        <li class="footer__block1__nav__lista"><a class="footer__block1__nav__lista__boton" href="./pages/contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer__block1__redes">
+                    <p class="footer__block1__redes__texto">Seguinos en</p>
+                    <a class="footer__block1__redes__instagram" target="_blank" href="https://www.instagram.com/gatu_mania/?hl=en">
+                        <i class="footer__block1__redes__instagram__icono fa-brands fa-instagram fa-xl"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer__block2">
+                    <p class="footer__block2__texto">© 2023 - Todos los Derechos Reservados</p>
+            </div>
+        </footer>
+        <script src="./js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

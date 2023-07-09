@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gatumanía | Contacto</title>
+        <!--favicon-->
+        <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+        <!--BOOTSTRAP CSS-->
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <!--CSS-->
+        <link rel="stylesheet" href="../css/estilos.css">
+        <!--Font Awesome--> 
+        <script src="https://kit.fontawesome.com/1a7ab603f0.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+
+        <!--HEADER-->
+
+        <header class="header">
+            <a class="header__logo" href="../index.html">
+                <img class="header__logo__img" src="../assets/img/header/logo_gatumania.png" alt="logo" loading="lazy">
+            </a>
+            <nav>
+                <ul class="header__nav">
+                    <li class="header__nav__lista"><a class="header__nav__lista__boton sinRelleno" href="../index.html">Inicio</a></li>
+                    <li class="header__nav__lista"><a class="header__nav__lista__boton sinRelleno" href="./adopta.html">Adoptá</a></li>
+                    <li class="header__nav__lista"><a class="header__nav__lista__boton sinRelleno" href="./nosotros.html">Sobre Nosotros</a></li>
+                    <li class="header__nav__lista"><a class="header__nav__lista__boton rellenoBlanco" href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--MAIN-->
+
+        <main class="contacto">
+            <div class="contacto__bloqueFormulario">
+                <section class="contacto__bloqueFormulario__titulo"> 
+                    <h1 class="contacto__bloqueFormulario__titulo__h1">Contacto</h1>
+                    <p class="contacto__bloqueFormulario__titulo__p">Para coordinar una visita para conocer a los michis, escribinos a través del formulario y nos contactaremos a la brevedad.</p>
+                </section>
+                <div class="contacto__bloqueFormulario__formulario">
+                    <form action="./404.html">
+                        <div>
+                            <input id="Nombre" type="text" placeholder="Nombre y apellido" required>                 
+                            <!--Preguntar si el id en el caso de los formularios es obligatorio, como vimos la ultima clase, era recomendable usar class-->
+                        </div>
+                        <div>
+                            <input type="email" placeholder="ejemplo@mail.com" required>
+                        </div>
+                        <div>
+                            <input type="tel" placeholder="Celular" required>
+                        </div>
+                        <div>
+                            <textarea name="" id="" cols="20" rows="5" placeholder="Escriba su mensaje aquí" required></textarea>
+                        </div>
+                        <div>
+                            <input type="submit" value="Enviar"> 
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <section class="contacto__resburgo">
+                <h2 class="contacto__resburgo__h2">Nuestra veterinaria de confianza</h2>
+                <div class="contacto__resburgo__bloqueMapa">
+                    <h3 class="contacto__resburgo__bloqueMapa__h3">Resburgo</h3>
+                    <iframe class="contacto__resburgo__bloqueMapa_mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13151.733627180245!2d-58.4845557!3d-34.5045725!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb16b20355b25%3A0x9837231f99850801!2sClinica%20Veterinaria%20Resburgo%2024hs!5e0!3m2!1sen!2sar!4v1686448040677!5m2!1sen!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </section>
+        </main>
+
+        <!--FOOTER-->
+
+        <footer class="footer">
+            <div class="footer__block1">
+                <div class="footer__block1__logo">
+                    <img class="footer__block1__logo__img" src="../assets/img/footer/isologo_gatumania.png" alt="logo" loading="lazy">  
+                </div>
+                <div>
+                    <ul class="footer__block1__nav">
+                        <li class="footer__block1__nav__lista"><a class="footer__block1__nav__lista__boton" href="../index.html">Inicio</a></li>
+                        <li class="footer__block1__nav__lista"><a class="footer__block1__nav__lista__boton" href="./adopta.html">Adoptá</a></li>
+                        <li class="footer__block1__nav__lista"><a class="footer__block1__nav__lista__boton" href="./nosotros.html">Sobre Nosotros</a></li>
+                        <li class="footer__block1__nav__lista"><a class="footer__block1__nav__lista__boton" href="#">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer__block1__redes">
+                    <p class="footer__block1__redes__texto">Seguinos en</p>
+                    <a class="footer__block1__redes__instagram" target="_blank" href="https://www.instagram.com/gatu_mania/?hl=en">
+                        <i class="footer__block1__redes__instagram__icono fa-brands fa-instagram fa-xl"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer__block2">
+                    <p class="footer__block2__texto">© 2023 - Todos los Derechos Reservados</p>
+            </div>
+        </footer>
+        <!--BOOTSTRAP JAVA-->
+        <script src="../js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
