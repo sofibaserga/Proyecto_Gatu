@@ -5,6 +5,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300&display=swap');
 
+
+
 a{
     text-decoration: none;
 
@@ -12,231 +14,131 @@ a{
 
 ul{
     list-style: none;
+    padding: 0;
 }
 
 body{
     padding: 0;
+    margin: 0;
     font-family: 'Outfit', sans-serif;
     font-size: 1.125rem;
-    font-weight: 300;
+    font-weight: 200;
     color: #181818;
     background-color: #FCF5F7;
 }
 
-.botonRosa{
+p{
+    margin: 0;
+}
+
+
+.bgRosa{
     background-color: #ECBEC9;
+}
+
+.bgBlanco{
+    background-color: #FFFFFF;
+}
+
+.rounded-especifico {
+    border-radius: 1rem;
+}
+
+
+
+
+/* ------------- CTA ------------- */
+
+.navbar-light .navbar-nav .nav-link.sinRelleno{
     color: white;
-    border-radius: 30px;
-    width: 11rem;
-    height: 2.8rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.botonRosa:hover{
-    background-color: #F2D1D9;
-}
-
-
-/* ------------- HEADER ------------- */
-
-.header{
-    background-color: #ECBEC9;
-    position: sticky;
-    top: 0rem;
-    z-index: 10;
-    padding: 0.6rem 4.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.header__nav{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.header__nav__lista__boton{
-    font-size: 1.125rem;
     font-weight: 300;
-    height: 3rem;
-    margin: 0 2rem;
-    display: flex;
-    justify-content:center;
-    align-items: center;
 }
 
-.sinRelleno{
-    color: white;
-
-}
-
-.sinRelleno:hover{
+.navbar-light .navbar-nav .nav-link.sinRelleno:hover{
     color: #DA8E9E;
 }
 
-.rellenoBlanco{
+.navbar-light .navbar-nav .nav-link.rellenoBlanco{
     background-color: #FCF5F7;
     color: #DA8E9E;
-    border-radius: 50rem;
-    height: 2.8rem;
-    width: 11rem;
+    font-weight: 300;
 }
 
-.rellenoBlanco:hover{
-    background-color: #F5DFE4;
+.navbar-light .navbar-nav .nav-link.rellenoBlanco:hover{
+    background-color: #FFFFFF;
 }
+
+.rellenoRosa{
+    background-color: #ECBEC9;
+    color: white;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+.rellenoRosa:hover{
+    background-color: #efcad2;
+    color: white;
+}
+
 
 
 
 
 /* ------------- HOME ------------- */
 
+
 /* ------ banner ------ */
+
 .home__banner{
     height: 28rem;
     background-image: url("../assets/img/home/fondoGato.png");
     background-size: cover;
-    margin: 4rem 5rem 0 5rem;
-    margin-top: 4rem;
-    border-radius: 15px;
-    padding: 0rem 4.5rem;
-    display: flex;
-    align-items: center;
 }
 
 .home__banner__h1{
-    font-size: 4rem;
     font-weight: 300;
 }
 
 .home__banner__h2{
-    font-size: 1.5rem;
     font-weight: 200;
-    margin-top: 1rem;
-    margin-bottom: 4.5rem;
 }
+
+
 
 /* ------ donaciones ------ */
-.home__donaciones{
-    padding: 5rem;
-}
+
 
 .home__donaciones__h2{
-    font-size: 3rem;
     font-weight: 300;
-    text-align: center;
-    margin-bottom: 3rem;
-}
-
-.home__donaciones__conjunto{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 1rem;
 }
 
 .home__donaciones__conjunto__individual{
-    width: 21rem;
+    width: 18rem;
     height: 20rem;
-    background-color: #FFFFFF;
-    border-radius: 15px;
-    margin-bottom: 3rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    white-space: pre-line;
 }
 
-.home__donaciones__conjunto__individual__h3{
-    font-size: 1.125rem;
-    font-weight: 300;
-    text-align: center;
-    margin: 1rem 0;
-}
-
-.home__donaciones__conjunto__individual__p{
-    font-size: 1rem;
-    font-weight: 200;
-    text-align: center;
-}
-
-.home__donaciones__conjunto__individual .botonRosa{
-    margin: 1rem auto;
-}
 
 /* ------ testimonios ------ */
-.home__testimonios{
-    background-color: #F2D1D9;
-    padding: 3rem 5rem 7rem 5rem;
-}
 
 .home__testimonios__h2{
-    font-size: 3rem;
     font-weight: 300;
-    text-align: center;
-    margin-bottom: 3rem;
-}
-
-.home__testimonios__conjunto{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.home__testimonios__conjunto__img{
-    border-radius: 15px;
-    width: 100%;
-}
-
-.home__testimonios__conjunto__texto{
-    margin-left: 2rem;
-    width: 40%;
 }
 
 .home__testimonios__conjunto__texto__h3{
-    font-size: 1.5rem;
     font-weight: 200;
-    margin-bottom: 1rem;
+}
+.home__testimonios__conjunto__texto__h3{
+    font-weight: 200;
 }
 
 .home__testimonios__conjunto__texto__h4{
-    font-size: 1.125rem;
     font-weight: 300;
 }
 
 .home__testimonios__conjunto__texto__p{
-    font-size: 1.125rem;
     font-weight: 200;
 }
-
-/* ------ video ------ */
-.home__video{
-    padding-top: 3rem;
-}
-
-.home__video__h2{
-    font-size: 3rem;
-    font-weight: 300;
-    text-align: center;
-}
-
-.home__video__divVideo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.home__video__divVideo__video{
-    margin-top: 3rem;
-    margin-bottom: 5rem;
-    border-radius: 15px;
-
-}
-
 
 
 
@@ -552,57 +454,21 @@ body{
 /* ------------- FOOTER ------------- */
 
 /* ------ bloque 1 ------ */
-.footer__block1{
+
+.bgRosita {
     background-color: #F5DFE4;
-    padding: 2rem 5rem;
-    display: flex;
 }
 
-.footer__block1__nav{
-    margin-left: 6rem;
-}
-
-.footer__block1__nav__lista{
-    margin-bottom: 1.5rem;
-    font-size: 1.125rem;
-    font-weight: 300;
-}
-
-.footer__block1__nav__lista__boton{
+.textRosa{
     color: #DA8E9E;
 }
 
-.footer__block1__redes{
-    margin-left: 6rem;
-}
-
-.footer__block1__redes__texto{
+.textRosa a{
     color: #DA8E9E;
-    font-size: 1.125rem;
-    font-weight: 200;
-    margin-bottom: 1rem;
 }
 
-.footer__block1__redes__instagram{
-    background-color: #ECBEC9;
-    padding: 0.5rem;
-    border-radius: 50rem;
-}
-
-.footer__block1__redes__instagram__icono{
+.iconRosita{
     color: #FCF5F7;
-}
-
-/* ------ bloque 2 ------ */
-.footer__block2{
-    background-color: #ECBEC9;
-}
-
-.footer__block2__texto{
-    font-size: 1rem;
-    font-weight: 200;
-    color: #FFFFFF;
-    padding: 0.5rem 5rem;
 }
 
 
@@ -610,173 +476,41 @@ body{
 /* --------------------------------------- MEDIA QUERIES --------------------------------------- */
 
 @media screen and (min-width:0px) and (max-width:768px) {
-    
-/* ------------- GENERALES MOBILE ------------- */
-
-    .botonRosa{
-        font-size: 1rem;
-        width: 10rem;
-        height: 2.4rem;
-    }
-        
-
-
-/* ------------- HEADER MOBILE ------------- */
-
-    .header{
-        position: sticky;
-        z-index: 10;
-        padding: 0.8rem 1rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .header__logo__img{
-        width: 90%;
-    }
-
-    .header__nav{
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
-
-    .header__nav__lista__boton{
-        font-size: 1rem;
-        height: 2.4rem;
-        margin: 0 0.6rem;
-    }
-
-    .rellenoBlanco{
-        height: 2.4rem;
-        width: 6.5rem;
-    }
+         
 
 
 /* ------------- HOME MOBILE ------------- */
+
+
 
 /* ------ banner ------ */
     .home__banner{
         height: 25rem;
         background-image: url("../assets/img/home/fondoGato_mobile.png");
-        margin: 2rem 1rem;
-        border-radius: 10px;
-        padding: 0 1.5rem;
     }
 
+
+
+/* ------ banner ------ */
+
     .home__banner__h1{
-        font-size: 2.5rem;
+        font-size: 3rem;
         white-space: pre-line;
     }
 
     .home__banner__h2{
-        font-size: 1rem;
-        margin-top: 1rem;
-        margin-bottom: 3rem;
         white-space: pre-line;
     }
-
-/* ------ donaciones ------ */
-    .home__donaciones{
-        padding: 1rem 0 2rem 0;
-    }
-
-    .home__donaciones__h2{
-        font-size: 2rem;
-        margin-bottom: 2rem;
-    }
-
-    .home__donaciones__conjunto{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .home__donaciones__conjunto__individual{
-        width: 18rem;
-        height: 16rem;
-        border-radius: 10px;
-        margin-bottom: 1rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .home__donaciones__conjunto__individual__h3{
-        font-size: 1rem;
-        margin: 0.8rem 0;
-    }
-
-    .home__donaciones__conjunto__individual__p{
-        font-size: 0.9rem;
-    }
-
-    .home__donaciones__conjunto__individual .botonRosa{
-        margin: 0.8rem auto;
-    }
-
-
-/* ------ testimonios ------ */
-    .home__testimonios{
-        padding: 2rem 1rem 3rem 1rem;
-    }
-
-    .home__testimonios__h2{
-        font-size: 2rem;
-        margin-bottom: 2rem;
-    }
-
-    .home__testimonios__conjunto{
-        flex-direction: column;
-    }
-
-    .home__testimonios__conjunto__img{
-        border-radius: 10px;
-        margin-bottom: 1rem;
-    }
-
-    .home__testimonios__conjunto__texto{
-        margin-left: 0;
-        width: 90%;
-        text-align: center;
-    }
-
-    .home__testimonios__conjunto__texto__h3{
-        font-size: 1.125rem;
-        margin-bottom: 1rem;
-    }
-
-    .home__testimonios__conjunto__texto__h4{
-        font-size: 1rem;
-    }
-
-    .home__testimonios__conjunto__texto__p{
-        font-size: 1rem;
-    }
-
+    
+    
 
 /* ------ video ------ */
-    .home__video{
-        padding: 2rem 1rem;
-    }
 
-    .home__video__h2{
-        font-size: 2rem;
-    }
+.home__video__h2{
+    white-space: pre-line;
+}
 
-    .home__video__divVideo{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
 
-    .home__video__divVideo__video{
-        margin-top: 1.5rem;
-        margin-bottom: 3rem;
-        border-radius: 10px;
-    }
 
 
 
@@ -977,96 +711,6 @@ body{
         border-radius: 10px;
         margin-top: 0;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ------------- FOOTER ------------- */
-
-/* ------ bloque 1 ------ */
-    .footer__block1{
-        padding: 1.5rem 1rem 2.5rem 1rem;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .footer__block1__logo{
-        margin-bottom: 1rem;
-    }
-
-    .footer__block1__nav{
-        margin: 0;
-    }
-
-    .footer__block1__nav__lista{
-        font-size: 1rem;
-        text-align: center;
-    }
-
-    .footer__block1__redes{
-        margin-left: 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .footer__block1__redes__texto{
-        font-size: 1rem;
-        margin-bottom: 0.5rem;
-        text-align: center;
-    }
-
-
-    /* ------ bloque 2 ------ */
-
-    .footer__block2__texto{
-        font-size: 0.8rem;
-        text-align: center;
-    }
-
 
 
 
