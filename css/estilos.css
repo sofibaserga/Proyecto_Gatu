@@ -144,54 +144,12 @@ p{
 
 /* ------------- ADOPTA ------------- */
 
-/* ------ titulo ------ */
-.adopta__titulo{
-    padding: 5rem 0 3rem 0;
-}
-
-.adopta__titulo__h1{
-    font-size: 3rem;
-    font-weight: 300;
-    text-align: center;
-}
 
 /* ------ gatitos ------ */
-.adopta__gatitos{
-    padding: 0 5rem;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 2rem;
-}
 
 .adopta__gatitos__cards{
-    width: 28rem;
-    margin-bottom: 5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: 25rem;
 }
-
-.adopta__gatitos__cards__img{
-    border-radius: 15px;
-    margin-bottom: 1rem;
-    width: 100%;
-}
-
-.adopta__gatitos__cards__h2{
-    font-size: 1.5rem;
-    font-weight: 300;
-    margin-bottom: 0.5rem;
-}
-
-.adopta__gatitos__cards__p{
-    font-size: 1rem;
-    font-weight: 200;
-    margin-bottom: 1rem;
-}
-
 
 
 
@@ -518,40 +476,10 @@ p{
 /* ------------- ADOPTA MOBILE ------------- */
 
 /* ------ titulo ------ */
-    .adopta__titulo{
-        padding: 3rem 0 2rem 0;
-    }
 
-    .adopta__titulo__h1{
-        font-size: 2rem;
-        white-space: pre-line;
-    }
-
-/* ------ gatitos ------ */
-    .adopta__gatitos{
-        padding: 0 1rem 3rem 1rem; 
-    }
-
-    .adopta__gatitos__cards{
-        width: 28rem;
-        margin-bottom: 1rem;
-    }
-
-    .adopta__gatitos__cards__img{
-        border-radius: 10px;
-        margin-bottom: 0.8rem;
-    }
-
-    .adopta__gatitos__cards__h2{
-        font-size: 1.2rem;
-        margin-bottom: 0.2rem;
-    }
-
-    .adopta__gatitos__cards__p{
-        font-size: 0.9rem;
-        margin-bottom: 0.8rem;
-    }
-
+.adopta__titulo__h1{
+    white-space: pre-line;
+}
 
 
 

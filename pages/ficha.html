@@ -17,10 +17,11 @@
     <body>
 
         <!--HEADER-->
+
         <header class="header sticky-top">
             <nav class="navbar navbar-expand-lg navbar-light bgRosa">
                 <div class="container">
-                    <a class="navbar-brand" href="./index.html">
+                    <a class="navbar-brand" href="../index.html">
                         <img src="../assets/img/header/logo_gatumania.png" alt="logo" loading="lazy" height="50">
                     </a>
                     <button class="navbar-toggler rounded-circle p-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,16 +30,16 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav w-100 justify-content-end">
                             <li class="nav-item">
-                                <a class="nav-link sinRelleno ms-3 text-center" aria-current="page" href="../index.html">Inicio</a>
+                                <a class="nav-link sinRelleno ms-3 fs-5 text-center" aria-current="page" href="../index.html">Inicio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link sinRelleno ms-3 text-center" href="./adopta.html">Adoptá</a>
+                                <a class="nav-link sinRelleno fs-5 ms-3 text-center" href="./adopta.html">Adoptá</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link sinRelleno ms-3 text-center" href="./nosotros.html">Sobre Nosotros</a>
+                                <a class="nav-link sinRelleno fs-5 ms-3 text-center" href="./nosotros.html">Sobre Nosotros</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link rellenoBlanco rounded-pill px-lg-4 ms-lg-3 px-sm-0 ms-sm-0 my-sm-10 text-center" href="./contacto.html">Contacto</a>
+                                <a class="nav-link rellenoBlanco fs-5 fs-lg-5 text-center rounded-pill px-lg-4 ms-lg-3 px-0 ms-0 my-10" href="./contacto.html">Contacto</a>
                             </li>
                         </ul>
                     </div>
@@ -101,30 +102,36 @@
         <!--FOOTER-->
 
         <footer class="footer">
-            <div class="footer__block1">
-                <div class="footer__block1__logo">
-                    <img class="footer__block1__logo__img" src="../assets/img/footer/isologo_gatumania.png" alt="logo" loading="lazy">  
+            <div class="footer__block1__Bg bgRosita py-4">
+                <div class="footer__block1 container">
+                    <div class="row">
+                    <div class="footer__block1__logo col-12 col-lg-2 d-flex justify-content-center d-lg-inline mb-4">
+                        <img class="footer__block1__logo__img" src="../assets/img/footer/isologo_gatumania.png" alt="logo" loading="lazy">  
+                    </div>
+                    <div class="col-12 col-lg-5">
+                        <ul class="footer__block1__nav">
+                            <li class="footer__block1__nav__lista mb-4 textRosa text-center text-lg-start"><a class="footer__block1__nav__lista__boton fs-5" href="../index.html">Inicio</a></li>
+                            <li class="footer__block1__nav__lista mb-4 textRosa text-center text-lg-start"><a class="footer__block1__nav__lista__boton fs-5" href="./adopta.html">Adoptá</a></li>
+                            <li class="footer__block1__nav__lista mb-4 textRosa text-center text-lg-start"><a class="footer__block1__nav__lista__boton fs-5" href="./nosotros.html">Sobre Nosotros</a></li>
+                            <li class="footer__block1__nav__lista mb-4 textRosa text-center text-lg-start"><a class="footer__block1__nav__lista__boton fs-5" href="./contacto.html">Contacto</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__block1__redes col-12 col-lg-5 d-flex justify-content-center align-items-center d-lg-inline">
+                        <p class="footer__block1__redes__texto mb-0 mb-lg-3 fs-6 textRosa me-2">Seguinos en</p>
+                        <a class="footer__block1__redes__instagram rounded-circle p-2 bgRosa" target="_blank" href="https://www.instagram.com/gatu_mania/?hl=en">
+                            <i class="footer__block1__redes__instagram__icono fa-brands fa-instagram fa-xl iconRosita"></i>
+                        </a>
+                    </div>
                 </div>
-                <div>
-                    <ul class="footer__block1__nav">
-                        <li class="footer__block1__nav__lista"><a class="footer__block1__nav__lista__boton" href="../index.html">Inicio</a></li>
-                        <li class="footer__block1__nav__lista"><a class="footer__block1__nav__lista__boton" href="./adopta.html">Adoptá</a></li>
-                        <li class="footer__block1__nav__lista"><a class="footer__block1__nav__lista__boton" href="./nosotros.html">Sobre Nosotros</a></li>
-                        <li class="footer__block1__nav__lista"><a class="footer__block1__nav__lista__boton" href="./contacto.html">Contacto</a></li>
-                    </ul>
-                </div>
-                <div class="footer__block1__redes">
-                    <p class="footer__block1__redes__texto">Seguinos en</p>
-                    <a class="footer__block1__redes__instagram" target="_blank" href="https://www.instagram.com/gatu_mania/?hl=en">
-                        <i class="footer__block1__redes__instagram__icono fa-brands fa-instagram fa-xl"></i>
-                    </a>
                 </div>
             </div>
-            <div class="footer__block2">
-                    <p class="footer__block2__texto">© 2023 - Todos los Derechos Reservados</p>
+            <div class="footer__block2__Bg bgRosa py-2">
+                <div class="footer__block2 container">
+                        <p class="footer__block2__texto fs-6 text-white text-center text-lg-start">© 2023 - Todos los Derechos Reservados</p>
+                </div>
             </div>
         </footer>
         <!--BOOTSTRAP JAVA-->
-        <script src="../js/bootstrap.bundle.min.js"></script>
+        <script src="./js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
