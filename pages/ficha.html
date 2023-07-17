@@ -50,50 +50,58 @@
         <!--MAIN-->
 
         <main class="ficha">
-            <section class="ficha__bloque1">
-                <div class="ficha__bloque1__padreImg">
-                    <img class="ficha__bloque1__padreImg__Img" src="../assets/img/ficha/tigra.png" alt="Gata chiquita atigrada marrón" loading="lazy">
-                </div>
-                <div class="ficha__bloque1__padreTxt">
-                    <h1 class="ficha__bloque1__padreTxt__h1">Tigra</h1>
-                    <p class="ficha__bloque1__padreTxt__p">La rescatamos el 17 de mayo de la Cava. Estaba llena de pulgas y con mucha hambre. Apenas nos vio, empezó a ronronear y a pedir mimos. Porque así es ella, super mimosa, dulce, confiada y llena de vida.
+            <section class="ficha__bloque1 container my-5">
+                <div class="row">
+                    <div class="ficha__bloque1__padreImg col-12 col-lg-6">
+                        <img class="ficha__bloque1__padreImg__Img w-100 rounded-especifico" src="../assets/img/ficha/tigra.png" alt="Gata chiquita atigrada marrón" loading="lazy">
+                        </div>
+                    <div class="ficha__bloque1__padreTxt col-12 col-lg-6 d-flex flex-column justify-content-center px-lg-5">
+                        <h1 class="ficha__bloque1__padreTxt__h1 display-3 mt-3 mt-lg-0">Tigra</h1>
+                        <p class="ficha__bloque1__padreTxt__p fs-5 mb-5">La rescatamos el 17 de mayo de la Cava. Estaba llena de pulgas y con mucha hambre. Apenas nos vio, empezó a ronronear y a pedir mimos. Porque así es ella, super mimosa, dulce, confiada y llena de vida.
                     Estos días ha demostrado ser una gatita super juguetona, dulce, extrovertida, mimosa y confiada. Se lleva genial con otros michis y con perros.
                     
                     Si te interesa adoptarla para toda la vida, podés completar la Solicitud de Adopción. Buscamos hogares seguros donde no tengan forma de acceder a techos, vecinos ni a la calle y donde puedan crecer compartiendo sus días con otro ser de su misma especie.</p>
-                    <a class="botonRosa" target="_blank" href="https://docs.google.com/forms/d/1kPjZij_TIHkjdYijXfdCaBxZVbS5IWdcVU-pA5KEkRM/viewform?edit_requested=true">Adoptá</a> 
-                </div>
+                        <div>
+                            <a class="botonRosa rellenoRosa fs-5 text-center rounded-pill px-4 py-2" target="_blank" href="https://docs.google.com/forms/d/1kPjZij_TIHkjdYijXfdCaBxZVbS5IWdcVU-pA5KEkRM/viewform?edit_requested=true">Adoptá</a> 
+                        </div>
+                    </div>
+            </div>
             </section>
-            <section class="ficha__bloque2">
-                <div class="ficha__bloque2__tabla">
-                    <h2 class="ficha__bloque2__tabla__h2">Ficha</h2>
-                    <table>
-                        <tbody>
-                            <tr>
-                                <td class="ficha__bloque2__tabla__columna1">Edad</td><td class="ficha__bloque2__tabla__columna2">4 meses</td>
-                            </tr>
-                            <tr>
-                                <td class="ficha__bloque2__tabla__columna1">Grupo Sanguíneo</td><td class="ficha__bloque2__tabla__columna2">A+</td>
-                            </tr>
-                            <tr>
-                                <td class="ficha__bloque2__tabla__columna1">Test rápido Vif/Vilef</td><td class="ficha__bloque2__tabla__columna2">Negativo</td>
-                            </tr>
-                            <tr>
-                                <td class="ficha__bloque2__tabla__columna1">PCR Vilef</td><td class="ficha__bloque2__tabla__columna2">Negativo</td>
-                            </tr>
-                            <tr>
-                                <td class="ficha__bloque2__tabla__columna1">PCR Mycoplasma</td><td class="ficha__bloque2__tabla__columna2">Negativo</td>
-                            </tr>
-                            <tr>
-                                <td class="ficha__bloque2__tabla__columna1">Desparasitada</td><td class="ficha__bloque2__tabla__columna2">Sí</td>
-                            </tr>
-                            <tr>
-                                <td class="ficha__bloque2__tabla__columna1">Castrada</td><td class="ficha__bloque2__tabla__columna2">No</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <div class="ficha__bloque2__padreImg">
-                    <img class="ficha__bloque2__padreImg_img" src="../assets/img/ficha/tigra2.png" alt="Gata chiquita atigrada marrón" loading="lazy">
+            <section class="ficha__bloque2 container my-5">
+                <div class="row">
+                    <div class="ficha__bloque2__tabla col-12 col-lg-6 d-flex flex-column justify-content-center px-lg-5">
+                        <h2 class="ficha__bloque2__tabla__h2 fs-6 textRosa text-uppercase mt-4 mt-lg-0">Ficha</h2>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <!--No pude cambiar el borde a rosa, dejo lo que prorbe en el CSS, era la clase borderRosa-->
+                                    <td class="ficha__bloque2__tabla__columna1 borderRosa pt-3 pb-2 border-bottom fs-5">Edad</td><td class="ficha__bloque2__tabla__columna2 borderRosa text-end pt-2 pb-2 border-bottom fs-5">4 meses</td>
+                                </tr>
+                                <tr>
+                                    <td class="ficha__bloque2__tabla__columna1 pt-3 pb-2 border-bottom fs-5">Grupo Sanguíneo</td><td class="ficha__bloque2__tabla__columna2 text-end pt-2 pb-2 border-bottom fs-5">A+</td>
+                                </tr>
+                                <tr>
+                                    <td class="ficha__bloque2__tabla__columna1 pt-3 pb-2 border-bottom fs-5">Test rápido Vif/Vilef</td><td class="ficha__bloque2__tabla__columna2 text-end pt-2 pb-2 border-bottom fs-5">Negativo</td>
+                                </tr>
+                                <tr>
+                                    <td class="ficha__bloque2__tabla__columna1 pt-3 pb-2 border-bottom fs-5">PCR Vilef</td><td class="ficha__bloque2__tabla__columna2 text-end pt-2 pb-2 border-bottom fs-5">Negativo</td>
+                                </tr>
+                                <tr>
+                                    <td class="ficha__bloque2__tabla__columna1 pt-3 pb-2 border-bottom fs-5">PCR Mycoplasma</td><td class="ficha__bloque2__tabla__columna2 text-end pt-2 pb-2 border-bottom fs-5">Negativo</td>
+                                </tr>
+                                <tr>
+                                    <td class="ficha__bloque2__tabla__columna1 pt-3 pb-2 border-bottom fs-5">Desparasitada</td><td class="ficha__bloque2__tabla__columna2 text-end pt-2 pb-2 border-bottom fs-5">Sí</td>
+                                </tr>
+                                <tr>
+                                    <td class="ficha__bloque2__tabla__columna1 pt-3 pb-2 border-bottom fs-5">Castrada</td><td class="ficha__bloque2__tabla__columna2 text-end pt-2 pb-2 border-bottom fs-5">No</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                
+                    <div class="ficha__bloque2__padreImg col-12 col-lg-6 order-first order-lg-last">
+                        <img class="ficha__bloque2__padreImg_img w-100 rounded-especifico" src="../assets/img/ficha/tigra2.png" alt="Gata chiquita atigrada marrón" loading="lazy">
+                    </div>
                 </div>
             </section>
 

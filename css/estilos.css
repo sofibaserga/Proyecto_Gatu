@@ -44,6 +44,11 @@ p{
     border-radius: 1rem;
 }
 
+.textRosa{
+    color: #DA8E9E;
+}
+
+
 
 
 
@@ -155,97 +160,26 @@ p{
 
 /* ------------- FICHA ------------- */
 
-.ficha{
-    margin: 0rem 5rem;
-}
 
 /* ------ bloque 1 ------ */
-.ficha__bloque1{
-    margin-top: 3rem;
-    margin-bottom: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    flex-wrap: wrap;
-    gap: 8rem;
-}
-
-.ficha__bloque1__padreImg{
-    width: 608px;
-}
-
-.ficha__bloque1__padreImg__Img{
-    border-radius: 15px;
-    width: 100%;
-}
-
-.ficha__bloque1__padreTxt{
-    width: 608px;
-}
-
-.ficha__bloque1__padreTxt__h1{
-    font-size: 4rem;
-    font-weight: 300;
-    margin-bottom: 1rem;
-    width: 100%;
-}
 
 .ficha__bloque1__padreTxt__p{
-    font-size: 1.125rem;
     font-weight: 200;
-    margin-bottom: 3rem;
-    width: 100%;
     white-space: pre-line;
 }
 
+
+
+
 /* ------ bloque 2 ------ */
-.ficha__bloque2{
-    margin-bottom: 5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    flex-wrap: wrap;
-    gap: 8rem;
-}
-
-.ficha__bloque2__tabla{
-    width: 608px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
 .ficha__bloque2__tabla__h2{
-    font-size: 1rem;
     font-weight: 300;
-    text-transform: uppercase;
-    color: #DA8E9E;
 }
 
-.ficha__bloque2__tabla__columna1{
-    font-size: 1.125rem;
-    font-weight: 200;
-    padding: 0.5rem 0;
-}
 
-.ficha__bloque2__tabla__columna2{
-    text-align: right;
-    font-size: 1.125rem;
-    font-weight: 200;
-    padding: 0.5rem 0;
+.ficha__bloque2__tabla .border-bottom.borderRosa{
+    border-bottom: #DA8E9E;
 }
-
-.ficha_bloque2_padreImg{
-    width: 608px;
-}
-
-.ficha__bloque2__padreImg_img{
-    border-radius: 15px;
-    width: 100%;
-}
-
 
 
 
@@ -468,11 +402,6 @@ p{
     white-space: pre-line;
 }
 
-
-
-
-
-
 /* ------------- ADOPTA MOBILE ------------- */
 
 /* ------ titulo ------ */
@@ -483,79 +412,6 @@ p{
 
 
 
-/* ------------- FICHA MOBILE ------------- */
-
-    .ficha{
-        margin: 0rem 1rem;
-    }
-
-    /* ------ bloque 1 ------ */
-    .ficha__bloque1{
-        margin-top: 2rem;
-        margin-bottom: 3rem;
-        flex-direction: column;
-        gap: 0.8rem;
-    }
-
-    .ficha__bloque1__padreImg{
-        width: 100%;
-    }
-
-    .ficha__bloque1__padreImg__Img{
-        border-radius: 10px;
-        width: 100%;
-    }
-
-    .ficha__bloque1__padreTxt{
-        width: 100%;
-    }
-
-    .ficha__bloque1__padreTxt__h1{
-        font-size: 2.5rem;
-        margin-bottom: 0.8rem;
-    }
-
-    .ficha__bloque1__padreTxt__p{
-        font-size: 1rem;
-        margin-bottom: 1.5rem;
-    }
-
-/* ------ bloque 2 ------ */
-    .ficha__bloque2{
-        margin-bottom: 3rem;
-        flex-direction: column;
-        gap: 0.8rem;
-    }
-
-    .ficha__bloque2__tabla{
-        width: 100%;
-        order: 1;
-    }
-
-    .ficha__bloque2__tabla__h2{
-        font-size: 0.9rem;
-    }
-
-    .ficha__bloque2__tabla__columna1{
-        font-size: 1rem;
-        padding: 0.5rem 0;
-    }
-
-    .ficha__bloque2__tabla__columna2{
-        text-align: right;
-        font-size: 1rem;
-        padding: 0.5rem 0;
-    }
-
-    .ficha_bloque2_padreImg{
-        width: 100%;
-        order: -1;
-    }
-
-    .ficha__bloque2__padreImg_img{
-        border-radius: 10px;
-        width: 100%;
-    }
 
 /* ------------- SOBRE NOSOTROS MOBILE ------------- */
 
