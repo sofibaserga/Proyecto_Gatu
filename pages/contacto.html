@@ -18,7 +18,7 @@
 
         <!--HEADER-->
 
-        <header class="header sticky-top">
+        <header class="header sticky-top shadow-sm">
             <nav class="navbar navbar-expand-lg navbar-light bgRosa">
                 <div class="container">
                     <a class="navbar-brand" href="../index.html">
@@ -50,40 +50,45 @@
         <!--MAIN-->
 
         <main class="contacto">
-            <div class="contacto__bloqueFormulario">
-                <section class="contacto__bloqueFormulario__titulo"> 
-                    <h1 class="contacto__bloqueFormulario__titulo__h1">Contacto</h1>
-                    <p class="contacto__bloqueFormulario__titulo__p">Para coordinar una visita para conocer a los michis, escribinos a través del formulario y nos contactaremos a la brevedad.</p>
-                </section>
-                <div class="contacto__bloqueFormulario__formulario">
+            <div class="contacto__bloqueFormulario container my-5">
+                <h1 class="contacto__bloqueFormulario__titulo__h1 display-5 mb-3">Contacto</h1>
+                <div class="row">
+                    <section class="contacto__bloqueFormulario__titulo col-12 col-lg-6"> 
+                        <p class="contacto__bloqueFormulario__titulo__p fs-5  mb-4">Para coordinar una visita para conocer a los michis, escribinos a través del formulario y nos contactaremos a la brevedad.</p>
+                    </section>
+                    <div class="contacto__bloqueFormulario__formulario col-12 col-lg-6 d-flex flex-column justify-content-center px-lg-5"> 
                     <form action="./404.html">
-                        <div>
-                            <input id="Nombre" type="text" placeholder="Nombre y apellido" required>                 
-                            <!--Preguntar si el id en el caso de los formularios es obligatorio, como vimos la ultima clase, era recomendable usar class-->
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control rounded-pill border-0" id="floatingInput" placeholder="Nombre y apellido" required>
+                            <label for="floatingInput">Nombre y apellido *</label>
                         </div>
-                        <div>
-                            <input type="email" placeholder="ejemplo@mail.com" required>
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control rounded-pill border-0" id="floatingInput" placeholder="ejemplo@mail.com" required>
+                            <label for="floatingInput">Email *</label>
                         </div>
-                        <div>
-                            <input type="tel" placeholder="Celular" required>
+                        <div class="form-floating mb-3">
+                            <input type="tel" class="form-control rounded-pill border-0" id="floatingInput" placeholder="+54 11 1111 1111" required>
+                            <label for="floatingInput">Celular *</label>
                         </div>
-                        <div>
-                            <textarea name="" id="" cols="20" rows="5" placeholder="Escriba su mensaje aquí" required></textarea>
+                        <div class="form-floating mb-4">
+                            <textarea class="form-control rounded-especifico border-0" placeholder="Escriba su mensaje aquí" id="floatingTextarea2" style="height: 200px"></textarea>
+                            <label for="floatingTextarea2">Escriba su mensaje aquí*</label>
                         </div>
-                        <div>
-                            <input type="submit" value="Enviar"> 
-                        </div>
-                    </form>
-                </div>
-            </div>
-            <section class="contacto__resburgo">
-                <h2 class="contacto__resburgo__h2">Nuestra veterinaria de confianza</h2>
+
+                        <button type="submit" value="Enviar" class="botonRosa rellenoRosa fs-5 text-center rounded-pill px-4 py-2 border-0">Submit</button>
+                      </form>
+                    </div>
+
+            <section class="contacto__resburgo container my-5">
+                <h2 class="contacto__resburgo__h2 fs-6 textRosa text-uppercase mt-4 mt-lg-0">Nuestra veterinaria
+                     de confianza</h2>
                 <div class="contacto__resburgo__bloqueMapa">
-                    <h3 class="contacto__resburgo__bloqueMapa__h3">Resburgo</h3>
-                    <iframe class="contacto__resburgo__bloqueMapa_mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13151.733627180245!2d-58.4845557!3d-34.5045725!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb16b20355b25%3A0x9837231f99850801!2sClinica%20Veterinaria%20Resburgo%2024hs!5e0!3m2!1sen!2sar!4v1686448040677!5m2!1sen!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <h3 class="contacto__resburgo__bloqueMapa__h3 display-5 mb-4">Resburgo</h3>
+                    <iframe class="contacto__resburgo__bloqueMapa_mapa rounded-especifico w-100" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13151.733627180245!2d-58.4845557!3d-34.5045725!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb16b20355b25%3A0x9837231f99850801!2sClinica%20Veterinaria%20Resburgo%2024hs!5e0!3m2!1sen!2sar!4v1686448040677!5m2!1sen!2sar" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </section>
         </main>
+        
 
         <!--FOOTER-->
 
