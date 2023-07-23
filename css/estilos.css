@@ -1,303 +1,179 @@
-
-/* ------------- GENERALES ------------- */
-
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300&display=swap');
-
-
-
-a{
-    text-decoration: none;
-
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@200;300&display=swap");
+/*
+$color-negro: #181818;
+$color-blanco: #FFFFFF;
+$color-rosa-mas-oscuro: #DA8E9E;
+$color-rosa-100: #ECBEC9;
+$color-rosa-70: #F2D1D9;
+$color-rosa-50: #F5DFE4;
+$color-rosa-25: #FAEFF1;
+$color-rosa-15: #FCF5F7; 
+*/
+a {
+  text-decoration: none;
 }
 
-ul{
-    list-style: none;
-    padding: 0;
+ul {
+  list-style: none;
+  padding: 0;
 }
 
-body{
-    padding: 0;
-    margin: 0;
-    font-family: 'Outfit', sans-serif;
-    font-size: 1.125rem;
-    font-weight: 200;
-    color: #181818;
-    background-color: #FCF5F7;
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 200;
+  color: #181818;
+  background-color: #FCF5F7;
 }
 
-p{
-    margin: 0;
+p {
+  margin: 0;
 }
 
-
-.bgRosa{
-    background-color: #ECBEC9;
+.bgRosa {
+  background-color: #ECBEC9;
 }
 
-.bgBlanco{
-    background-color: #FFFFFF;
+.bgRosita {
+  background-color: #F5DFE4;
+}
+
+.bgBlanco {
+  background-color: #FFFFFF;
 }
 
 .rounded-especifico {
-    border-radius: 1rem;
+  border-radius: 1rem;
 }
 
-.textRosa{
-    color: #DA8E9E;
+.textRosa {
+  color: #DA8E9E;
 }
 
-
-
-/* ------------- CTA ------------- */
-
-
-.navbar-light .navbar-nav .nav-link.sinRelleno{
-    color: white;
-    font-weight: 300;
+.rellenoRosa {
+  background-color: #ECBEC9;
+  color: #FFFFFF;
+  line-height: 1.5;
+  font-weight: 300;
+}
+.rellenoRosa:hover {
+  background-color: #F2D1D9;
+  color: #FFFFFF;
 }
 
-.navbar-light .navbar-nav .nav-link.sinRelleno:hover{
-    color: #DA8E9E;
+.iconRosita {
+  color: #FCF5F7;
 }
 
-.navbar-light .navbar-nav .nav-link.rellenoBlanco{
-    background-color: #FCF5F7;
-    color: #DA8E9E;
-    font-weight: 300;
+.navbar-light .navbar-nav .nav-link.sinRelleno {
+  color: #FFFFFF;
+  font-weight: 300;
+}
+.navbar-light .navbar-nav .nav-link.sinRelleno:hover {
+  color: #DA8E9E;
+}
+.navbar-light .navbar-nav .nav-link.rellenoBlanco {
+  background-color: #FCF5F7;
+  color: #DA8E9E;
+  font-weight: 300;
+}
+.navbar-light .navbar-nav .nav-link.rellenoBlanco:hover {
+  background-color: #FFFFFF;
 }
 
-.navbar-light .navbar-nav .nav-link.rellenoBlanco:hover{
-    background-color: #FFFFFF;
+.home .home__banner {
+  height: 28rem;
+  background-image: url("../assets/img/home/fondoGato.png");
+  background-size: cover;
+}
+.home .home__banner .home__banner__h1 {
+  font-weight: 300;
+}
+.home .home__banner .home__banner__h2 {
+  font-weight: 200;
+}
+.home .home__donaciones .home__donaciones__h2 {
+  font-weight: 300;
+}
+.home .home__donaciones .home__donaciones__conjunto__individual {
+  width: 18rem;
+  height: 20rem;
+  white-space: pre-line;
+}
+.home .home__testimonios .home__testimonios__h2 {
+  font-weight: 300;
+}
+.home .home__testimonios .home__testimonios__conjunto .home__testimonios__conjunto__texto__h3 {
+  font-weight: 200;
+}
+.home .home__testimonios .home__testimonios__conjunto .home__testimonios__conjunto__texto__h4 {
+  font-weight: 300;
+}
+.home .home__testimonios .home__testimonios__conjunto .home__testimonios__conjunto__texto__p {
+  font-weight: 200;
 }
 
-.rellenoRosa{
-    background-color: #ECBEC9;
-    color: white;
-    line-height: 1.5;
-    font-weight: 300;
-}
-
-.rellenoRosa:hover{
-    background-color: #efcad2;
-    color: white;
-}
-
-
-
-
-
-/* ------------- HOME ------------- */
-
-
-/* ------ banner ------ */
-
-.home__banner{
-    height: 28rem;
-    background-image: url("../assets/img/home/fondoGato.png");
-    background-size: cover;
-}
-
-.home__banner__h1{
-    font-weight: 300;
-}
-
-.home__banner__h2{
-    font-weight: 200;
-}
-
-
-
-/* ------ donaciones ------ */
-
-
-.home__donaciones__h2{
-    font-weight: 300;
-}
-
-.home__donaciones__conjunto__individual{
-    width: 18rem;
-    height: 20rem;
-    white-space: pre-line;
-}
-
-
-/* ------ testimonios ------ */
-
-.home__testimonios__h2{
-    font-weight: 300;
-}
-
-.home__testimonios__conjunto__texto__h3{
-    font-weight: 200;
-}
-.home__testimonios__conjunto__texto__h3{
-    font-weight: 200;
-}
-
-.home__testimonios__conjunto__texto__h4{
-    font-weight: 300;
-}
-
-.home__testimonios__conjunto__texto__p{
-    font-weight: 200;
-}
-
-
-
-/* ------------- ADOPTA ------------- */
-
-
-/* ------ gatitos ------ */
-
-.adopta__gatitos__cards{
-    width: 25rem;
-}
-
-
-
-/* ------------- FICHA ------------- */
-
-
-/* ------ bloque 1 ------ */
-
-.ficha__bloque1__padreTxt__p{
-    font-weight: 200;
-    white-space: pre-line; /* no lo vimos en clase, pero encontre en chat gpt que se podia hacer*/
-}
-
-/* ------ bloque 2 ------ */
-.ficha__bloque2__tabla__h2{
-    font-weight: 300;
-}
-
-
-.ficha__bloque2__tabla .border-bottom.borderRosa{
-    border-bottom: #DA8E9E;
-}
-
-
-
-/* ------------- SOBRE NOSOTROS ------------- */
-
-/* ------ sobre gatumania ------ */
-
-.nosotros__sobreGatumania__padreTxt__h2{
-    font-weight: 300;
-}
-
-.nosotros__sobreGatumania__padreTxt__h3{
-    font-weight: 300;
-}
-
-.nosotros__sobreGatumania__padreTxt__p{
-    white-space: pre-line; 
-}
-
-
-
-/* ------ fundadora ------ */
-
-.nosotros__fundadora__padreTxt__h2{
-    font-weight: 300;
-}
-
-.nosotros__fundadora__padreTxt__p{
-    white-space: pre-line;
-}
-
-
-
-/* ------------- CONTACTO ------------- */
-
-
-
-/* ------ formulario ------ */
-
-.contacto__bloqueFormulario__titulo__h1{
-    font-weight: 300;
-}
-
-
-
-/* ------ veterinaria ------ */
-
-.contacto__resburgo__h2{
-    font-weight: 300;
-}
-
-.contacto__resburgo__bloqueMapa__h3{
-    font-weight: 200;
-}
-
-
-
-
-/* ------------- FOOTER ------------- */
-
-/* ------ bloque 1 ------ */
-
-.bgRosita {
-    background-color: #F5DFE4;
-}
-
-.textRosa{
-    color: #DA8E9E;
-}
-
-.textRosa a{
-    color: #DA8E9E;
-}
-
-.iconRosita{
-    color: #FCF5F7;
-}
-
-
-
-/* --------------------------------------- MEDIA QUERIES --------------------------------------- */
-
-@media screen and (min-width:0px) and (max-width:768px) {
-         
-
-
-/* ------------- HOME MOBILE ------------- */
-
-
-
-/* ------ banner ------ */
-.home__banner{
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .home .home__banner {
     height: 25rem;
     background-image: url("../assets/img/home/fondoGato_mobile.png");
-}
-
-.home__banner__h1{
+  }
+  .home .home__banner .home__banner__h1 {
     font-size: 3rem;
     white-space: pre-line;
-}
-
-.home__banner__h2{
+  }
+  .home .home__banner .home__banner__h2 {
     white-space: pre-line;
-}
-    
-    
-
-/* ------ video ------ */
-
-.home__video__h2{
+  }
+  .home .home__video__h2 {
     white-space: pre-line;
+  }
+}
+.adopta__gatitos__cards {
+  width: 25rem;
 }
 
-
-/* ------------- ADOPTA MOBILE ------------- */
-
-/* ------ titulo ------ */
-
-.adopta__titulo__h1{
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .adopta__titulo__h1 {
     white-space: pre-line;
+  }
+}
+.ficha .ficha__bloque1 .ficha__bloque1__padreTxt__p {
+  font-weight: 200;
+  white-space: pre-line; /* no lo vimos en clase, pero encontre en chat gpt que se podia hacer*/
+}
+.ficha .ficha__bloque2 .ficha__bloque2__tabla__h2 {
+  font-weight: 300;
 }
 
-
-
-
-
+.nosotros .nosotros__sobreGatumania .nosotros__sobreGatumania__padreTxt__h2 {
+  font-weight: 300;
 }
+.nosotros .nosotros__sobreGatumania .nosotros__sobreGatumania__padreTxt__h3 {
+  font-weight: 300;
+}
+.nosotros .nosotros__sobreGatumania .nosotros__sobreGatumania__padreTxt__p {
+  white-space: pre-line;
+}
+.nosotros .nosotros__fundadora .nosotros__fundadora__padreTxt__h2 {
+  font-weight: 300;
+}
+.nosotros .nosotros__fundadora .nosotros__fundadora__padreTxt__p {
+  white-space: pre-line;
+}
+
+.contacto .contacto__bloqueFormulario .contacto__bloqueFormulario__titulo__h1 {
+  font-weight: 300;
+}
+.contacto .contacto__resburgo .contacto__resburgo__h2 {
+  font-weight: 300;
+}
+.contacto .contacto__resburgo .contacto__resburgo__bloqueMapa__h3 {
+  font-weight: 200;
+}
+
+.textRosa a {
+  color: #DA8E9E;
+}/*# sourceMappingURL=estilos.css.map */
