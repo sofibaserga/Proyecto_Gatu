@@ -4,20 +4,24 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Gatumanía | Sobre Nosotros</title>
+        <!--SEO-->
+        <meta name="description" content="Somos oficialmente una ONG. Conocé un poco más sobre quienes somos y como inició todo con Nati, nuestra fundadora">
+        <meta name="keywords" content="gatumanía, ONG, @gatu_mania, Nati, abandono, fundadora">
+        <!--TITULO-->
+        <title>Sobre Nosotros | Gatumanía</title>
         <!--favicon-->
         <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
         <!--BOOTSTRAP CSS-->
         <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <!--AOS-->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <!--CSS-->
         <link rel="stylesheet" href="../css/estilos.css">
         <!--Font Awesome--> 
         <script src="https://kit.fontawesome.com/1a7ab603f0.js" crossorigin="anonymous"></script>
     </head>
     <body>
-
         <!--HEADER-->
-
         <header class="header sticky-top shadow-sm">
             <nav class="navbar navbar-expand-lg navbar-light bgRosa">
                 <div class="container">
@@ -46,10 +50,7 @@
                 </div>
             </nav>
         </header>
-
-        
         <!--MAIN-->
-
         <main class="nosotros">
             <section class="nosotros__titulo container my-5"> 
                 <h1 class="nosotros__titulo__h1 text-center display-5">Sobre Nosotros</h1>
@@ -57,9 +58,9 @@
             <section class="nosotros__sobreGatumania container my-5">
                 <div class="row">
                     <div class="nosotros__sobreGatumania__padreImg col-12 col-lg-6 d-flex justify-content-center">
-                        <img class="nosotros__sobreGatumania__padreImg__img rounded-especifico w-100" src="../assets/img/sobre_nosotros/gatitos.png" alt="Dos gatos bebes, uno marron y uno blanco, acoostados juntos en una manta de peluche" loading="lazy">
+                        <img class="nosotros__sobreGatumania__padreImg__img rounded-especifico w-100" data-aos="fade-right" data-aos-offset="350" data-aos-delay="300" data-aos-once="true" data-aos-anchor-placement="bottom" src="../assets/img/sobre_nosotros/gatitos.png" alt="Dos gatos bebes, uno marron y uno blanco, acoostados juntos en una manta de peluche" loading="lazy">
                     </div>
-                    <div class="nosotros__sobreGatumania__padreTxt col-12 col-lg-6 d-flex flex-column justify-content-center px-lg-5">
+                    <div class="nosotros__sobreGatumania__padreTxt col-12 col-lg-6 d-flex flex-column justify-content-center px-lg-5" data-aos="fade-left" data-aos-offset="350" data-aos-delay="300" data-aos-once="true" data-aos-anchor-placement="bottom">
                         <h2 class="nosotros__sobreGatumania__padreTxt__h2 fs-6 textRosa text-uppercase mt-4 mt-lg-0">Sobre Gatumanía</h2>
                         <h3 class="nosotros__sobreGatumania__padreTxt__h3 fs-5">Somos oficialmente una ONG.</h3>
                         <p class="nosotros__sobreGatumania__padreTxt__p fs-5">Porque a veces los sueños, se hacen realidad.
@@ -71,21 +72,19 @@
             </section>
             <section class="nosotros__fundadora container my-5">
                 <div class="row">
-                    <div class="nosotros__fundadora__padreTxt col-12 col-lg-6 d-flex flex-column justify-content-center px-lg-5">
+                    <div class="nosotros__fundadora__padreTxt col-12 col-lg-6 d-flex flex-column justify-content-center px-lg-5" data-aos="fade-right" data-aos-offset="350" data-aos-delay="300" data-aos-once="true" data-aos-anchor-placement="bottom">
                         <h2 class="nosotros__fundadora__padreTxt__h2 fs-6 textRosa text-uppercase mt-4 mt-lg-0">Fundadora</h2>
                         <p class="nosotros__fundadora__padreTxt__p fs-5">Mi nombre es Nati. 
                         Les presento a la loca gatera detrás de cada una de estas historias que ven por acá. Siempre me gustó sacar fotos, desde chica le robaba la cámara a mi mamá para sacarle fotos a todo lo que tenía por delante, pero ya más de grande elegí otra carrera, relacionada con el arte pero no puntualmente la fotografía... 
                         Hace un par de años, empecé a involucrarme con esta tarea tan hermosa de ayudar animalitos en situación de abandono, y empecé a utilizar este arte que siempre llevé dentro mio para poder hacerles lindas fotos y difundir, que la gente los conozca y poder encontrarles un hogar. Toda esta hermosa tarea me dio la posibilidad de trabajar de esto que tanto amo, algo que siempre anhelé y por esas vueltas de la vida nunca había encarado... Todo lo que das vuelve!</p>
                     </div>
-                    <div class="nosotros__fundadora__padreImg ficha__bloque2__padreImg col-12 col-lg-6 order-first order-lg-last d-flex justify-content-center">
+                    <div class="nosotros__fundadora__padreImg ficha__bloque2__padreImg col-12 col-lg-6 order-first order-lg-last d-flex justify-content-center" data-aos="fade-left" data-aos-offset="350" data-aos-delay="300" data-aos-once="true" data-aos-anchor-placement="bottom">
                         <img class="nosotros__fundadora__padreImg__img rounded-especifico w-100" src="../assets/img/sobre_nosotros/nati.png" alt="Mujer rubia tirada en el piso sacandole foto a un gato naranja y blanco" loading="lazy">
                     </div>
                 </div>
             </section>
         </main>
-
         <!--FOOTER-->
-
         <footer class="footer">
             <div class="footer__block1__Bg bgRosita py-4">
                 <div class="footer__block1 container">
@@ -118,5 +117,10 @@
         </footer>
         <!--BOOTSTRAP JAVASCRIPT-->
         <script src="../js/bootstrap.bundle.min.js"></script>
+        <!--AOS-->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>

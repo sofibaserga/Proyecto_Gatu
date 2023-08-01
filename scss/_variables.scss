@@ -1,14 +1,16 @@
 $font-family-principal: 'Outfit', sans-serif;
 
-
 $font-size-desktop-body1: 1.125rem;
 
 $font-size-mobile-h1: 3rem;
-    
+
+$border-radius-principal: 1rem;
+
 
 $font-weight:(
     regular: 200,
     bold: 300,
+    extrabold: 400,
 );
 
 
@@ -24,19 +26,6 @@ $color:(
     rosa-quince: #FCF5F7,
 );
 
-
-/*
-$color-negro: #181818;
-$color-blanco: #FFFFFF;
-$color-rosa-mas-oscuro: #DA8E9E;
-$color-rosa-100: #ECBEC9;
-$color-rosa-70: #F2D1D9;
-$color-rosa-50: #F5DFE4;
-$color-rosa-25: #FAEFF1;
-$color-rosa-15: #FCF5F7; 
-*/
-
-$border-radius-principal: 1rem;
 
 
 

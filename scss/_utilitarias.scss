@@ -32,3 +32,16 @@
 .iconRosita{
     color: map-get($color, rosa-quince);
 }
+
+.paddingSeccion{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.tipoMedium{
+    font-weight: map-get($font-weight, bold);
+}
+
+.tipoNegrita{
+    font-weight: map-get($font-weight, extrabold);
+}

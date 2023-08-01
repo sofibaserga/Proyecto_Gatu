@@ -4,20 +4,24 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Gatumanía | Contacto</title>
+        <!--SEO-->
+        <meta name="description" content="Ponete en contacto con nosotros para conocer personalmente a los gatitos. Te recomendamos nuestra veterinaria de confianza.">
+        <meta name="keywords" content="contacto, veterinaria, confianza, michis, gatos, Resburgo, visita">
+        <!--TITULO-->
+        <title>Contacto | Gatumanía</title>
         <!--favicon-->
         <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
         <!--BOOTSTRAP CSS-->
         <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <!--AOS-->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <!--CSS-->
         <link rel="stylesheet" href="../css/estilos.css">
         <!--Font Awesome--> 
         <script src="https://kit.fontawesome.com/1a7ab603f0.js" crossorigin="anonymous"></script>
     </head>
     <body>
-
         <!--HEADER-->
-
         <header class="header sticky-top shadow-sm">
             <nav class="navbar navbar-expand-lg navbar-light bgRosa">
                 <div class="container">
@@ -46,9 +50,7 @@
                 </div>
             </nav>
         </header>
-
         <!--MAIN-->
-
         <main class="contacto">
             <div class="contacto__bloqueFormulario container my-5">
                 <h1 class="contacto__bloqueFormulario__titulo__h1 display-5 mb-3">Contacto</h1>
@@ -56,26 +58,25 @@
                     <section class="contacto__bloqueFormulario__titulo col-12 col-lg-6"> 
                         <p class="contacto__bloqueFormulario__titulo__p fs-5  mb-4">Para coordinar una visita para conocer a los michis, escribinos a través del formulario y nos contactaremos a la brevedad.</p>
                     </section>
-                    <div class="contacto__bloqueFormulario__formulario col-12 col-lg-6 d-flex flex-column justify-content-center px-lg-5"> 
+                    <div class="contacto__bloqueFormulario__formulario col-12 col-lg-6 d-flex flex-column justify-content-center px-lg-5" data-aos="fade-left" data-aos-offset="350" data-aos-delay="300" data-aos-once="true" data-aos-anchor-placement="bottom"> 
                     <form action="./404.html">
                         <div class="form-floating mb-3">
-                            <input type="text" class="form-control rounded-pill border-0" id="floatingInput" placeholder="Nombre y apellido" required>
-                            <label for="floatingInput">Nombre y apellido *</label>
+                            <input type="text" class="form-control rounded-pill border-0" id="nombreApellido" placeholder="Nombre y apellido" required>
+                            <label for="nombreApellido">Nombre y apellido *</label>
                         </div>
                         <div class="form-floating mb-3">
-                            <input type="email" class="form-control rounded-pill border-0" id="floatingInput" placeholder="ejemplo@mail.com" required>
-                            <label for="floatingInput">Email *</label>
+                            <input type="email" class="form-control rounded-pill border-0" id="mail" placeholder="ejemplo@mail.com" required>
+                            <label for="mail">Email *</label>
                         </div>
                         <div class="form-floating mb-3">
-                            <input type="tel" class="form-control rounded-pill border-0" id="floatingInput" placeholder="+54 11 1111 1111" required>
-                            <label for="floatingInput">Celular *</label>
+                            <input type="tel" class="form-control rounded-pill border-0" id="celular" placeholder="+54 11 1111 1111" required>
+                            <label for="celular">Celular *</label>
                         </div>
                         <div class="form-floating mb-4">
-                            <textarea class="form-control rounded-especifico border-0" placeholder="Escriba su mensaje aquí" id="floatingTextarea2" style="height: 200px"></textarea>
-                            <label for="floatingTextarea2">Escriba su mensaje aquí*</label>
+                            <textarea class="form-control rounded-especifico border-0" placeholder="Escriba su mensaje aquí" id="mensaje" style="height: 200px" required></textarea>
+                            <label for="mensaje">Escriba su mensaje aquí*</label>
                         </div>
-
-                        <button type="submit" value="Enviar" class="botonRosa rellenoRosa fs-5 text-center rounded-pill px-4 py-2 border-0">Submit</button>
+                        <input type="submit" value="Enviar" class="botonRosa rellenoRosa fs-5 text-center rounded-pill px-4 py-2 border-0">
                       </form>
                     </div>
 
@@ -88,10 +89,7 @@
                 </div>
             </section>
         </main>
-        
-
         <!--FOOTER-->
-
         <footer class="footer">
             <div class="footer__block1__Bg bgRosita py-4">
                 <div class="footer__block1 container">
@@ -124,5 +122,10 @@
         </footer>
         <!--BOOTSTRAP JAVASCRIPT-->
         <script src="../js/bootstrap.bundle.min.js"></script>
+        <!--AOS-->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>

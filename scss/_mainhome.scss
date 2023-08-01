@@ -3,6 +3,7 @@
         height: 28rem;
         background-image: url("../assets/img/home/fondoGato.png");
         background-size: cover;
+        @include flex-direction-justificar-alinear(column,center,start);
         .home__banner__h1{
             font-weight: map-get($font-weight, bold);
         }
@@ -18,6 +19,7 @@
             width: 18rem;
             height: 20rem;
             white-space: pre-line;
+            @include flex-direction-justificar-alinear(column,center,center);
         }
     }
     .home__testimonios{
@@ -25,16 +27,24 @@
             font-weight: map-get($font-weight, bold);
         }
         .home__testimonios__conjunto{
-            .home__testimonios__conjunto__texto__h3{
-                font-weight: map-get($font-weight, regular);
-            }
-            .home__testimonios__conjunto__texto__h4{
-                font-weight: map-get($font-weight, bold);
-            }
-            .home__testimonios__conjunto__texto__p{
-                font-weight: map-get($font-weight, regular);
+            .home__testimonios__conjunto__texto{
+                @include flex-direction-justificar-alinear(column,center,start);
+                .home__testimonios__conjunto__texto__h3{
+                    font-weight: map-get($font-weight, regular);
+                }
+                .home__testimonios__conjunto__texto__h4{
+                    font-weight: map-get($font-weight, bold);
+                }
+                .home__testimonios__conjunto__texto__p{
+                    font-weight: map-get($font-weight, regular);
+                }
             }
         }
+    }
+    .home__video{
+        .home__video__divVideo{
+            @include flex-direction-justificar-alinear(row,center,center);
+        } 
     }
 }
 

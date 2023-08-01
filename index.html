@@ -4,18 +4,23 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Gatumanía | Inicio</title>
+        <!--SEO-->
+        <meta name="description" content="Encontrá tu compañero felino perfecto en nuestro sitio web dedicado a conectar gatos necesitados con hogares amorosos en toda Argentina. Adoptá, salvá una vida y descubrí el amor incondicional que solo un gato puede brindar.">
+        <meta name="keywords" content="gato, adoptá, adopcion, doná, donaciones, testimonios, michi, recomendaciones">
+        <!--TITULO-->
+        <title>Gatumanía | Adopción de gatitos</title>
         <!--favicon // lo deje en tamaño 16x16 por lo que dijeron en clase, pero en mi pc lo veo pixelado, en 24x24 lo veia bien-->
         <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
         <!--BOOTSTRAP CSS-->
-        <link rel="stylesheet" href="./css/bootstrap.min.css">  
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <!--AOS-->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <!--CSS--> 
         <link rel="stylesheet" href="./css/estilos.css">
         <!--Font Awesome--> 
         <script src="https://kit.fontawesome.com/1a7ab603f0.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        
         <!--HEADER--> 
         <header class="header sticky-top shadow-sm">
             <nav class="navbar navbar-expand-lg navbar-light bgRosa">
@@ -45,27 +50,24 @@
                 </div>
             </nav>
         </header>
-
-
         <!--MAIN-->
-
         <main class="home">
-            <div class="container my-5">
-                <section class="home__banner rounded-especifico px-3 px-lg-5 d-flex flex-column justify-content-center">
+            <div class="container paddingSeccion">
+                <section class="home__banner rounded-especifico px-3 px-lg-5">
                     <h1 class="home__banner__h1 display-3 mb-2">Adoptar 
                         salva vidas</h1>
                     <h2 class="home__banner__h2 fs-4 mb-5">Conocé a los michis 
                         en adopción</h2>
-                    <div> <!--Vicky, me podras ayudar aca? El boton me quedo en tamaño diferente al que esta en el nav-link y no supe como corregirrlo, tiene como una altura diferente, el padding es el mismo-->
+                    <div> 
                         <a class="botonRosa rellenoRosa fs-5 text-center rounded-pill px-4 py-2" href="./pages/adopta.html">Adoptá</a>
                     </div>
                 </section>
             </div>
             <div class="container">
                 <section class="home__donaciones my-5">
-                    <h2 class="home__donaciones__h2 display-5 text-center mb-5">Colaborá con donaciones</h2>
+                    <h2 class="home__donaciones__h2 display-5 text-center mb-5">Colaborá con <span class="tipoNegrita">donaciones</span></h2>
                     <div class="home__donaciones__conjunto row justify-content-center justify-content-lg-between">
-                        <div class="home__donaciones__conjunto__individual bgBlanco rounded-especifico d-flex flex-column justify-content-center mb-4">
+                        <div class="home__donaciones__conjunto__individual bgBlanco rounded-especifico mb-4" data-aos="fade-up" data-aos-offset="350" data-aos-once="true" data-aos-anchor-placement="bottom">
                             <div class="d-flex justify-content-center mb-2">
                                 <img src="./assets/img/home/mercado_pago.png" alt="Logo Mercado Pago" loading="lazy">
                             </div>
@@ -73,7 +75,7 @@
                                 <a class="botonRosa rellenoRosa fs-5 text-center rounded-pill px-4 py-2" target="_blank" href="https://www.mercadopago.com.ar/checkout/v1/payment/redirect/d1a9616c-f052-4635-b2f8-614b226d1e3a/payment-option-form/?router-request-id=4269e5b8-3487-4258-a1ce-562b8c8d51bd&source=link&preference-id=804682745-2bb6551b-2c26-4d5a-8887-d721cc9eab36&p=188671ccd889cb7ea2aec1e368be1d23#/">Doná</a>
                             </div>
                         </div>
-                        <div class="home__donaciones__conjunto__individual bgBlanco rounded-especifico d-flex flex-column justify-content-center mb-4">
+                        <div class="home__donaciones__conjunto__individual bgBlanco rounded-especifico mb-4" data-aos="fade-up" data-aos-offset="350" data-aos-once="true" data-aos-anchor-placement="bottom">
                             <div class="d-flex justify-content-center mb-2">
                                 <img src="./assets/img/home/paypal.png" alt="Logo PayPal" loading="lazy">
                             </div>
@@ -81,7 +83,7 @@
                                 <a class="botonRosa rellenoRosa fs-5 text-center rounded-pill px-4 py-2" target="_blank" href="https://www.paypal.com/paypalme/gatumania">Doná</a>
                             </div>
                         </div>
-                        <div class="home__donaciones__conjunto__individual bgBlanco rounded-especifico d-flex flex-column justify-content-center mb-4">
+                        <div class="home__donaciones__conjunto__individual bgBlanco rounded-especifico mb-4" data-aos="fade-up" data-aos-offset="350" data-aos-once="true" data-aos-anchor-placement="bottom">
                             <div class="d-flex justify-content-center mb-2">
                                 <h3 class="home__donaciones__conjunto__individual__h3 fs-5 text-center">Débito 
                                     automático</h3>
@@ -90,7 +92,7 @@
                                 <a class="botonRosa rellenoRosa fs-5 text-center rounded-pill px-4 py-2" target="_blank" href="https://www.mercadopago.com.ar/subscriptions/checkout?preapproval_plan_id=2c9380847b629308017bacf6dced3d63">Doná</a>
                             </div>
                         </div>
-                        <div class="home__donaciones__conjunto__individual bgBlanco rounded-especifico d-flex flex-column justify-content-center">
+                        <div class="home__donaciones__conjunto__individual bgBlanco rounded-especifico" data-aos="fade-up" data-aos-offset="350" data-aos-once="true" data-aos-anchor-placement="bottom">
                             <div class="text-center">
                                 <h3 class="home__donaciones__conjunto__individual__h3 fs-5">Depósito o 
                                     Transferencia Bancaria</h3>
@@ -106,14 +108,14 @@
                     </div>
                 </section>
             </div>
-            <section class="home__testimonios my-5 bgRosita py-5">
-                <div class="container">
-                        <h2 class="home__testimonios__h2 display-5 text-center">Testimonios de adoptantes</h2>
-                        <div class="home__testimonios__conjunto row my-4">
+            <section class="home__testimonios bgRosita paddingSeccion">
+                <div class="container mt-3 mb-5">
+                        <h2 class="home__testimonios__h2 display-5 text-center mb-5"><span class="tipoNegrita">Testimonios</span> de adoptantes</h2>
+                        <div class="home__testimonios__conjunto row">
                             <div class="col-12 col-lg-6">
                                 <img class="home__testimonios__conjunto__img rounded-especifico w-100" src="./assets/img/home/testimonios.png" alt="Dos gatos acompañandose en el balcón" loading="lazy">
                             </div>
-                            <div class="home__testimonios__conjunto__texto class col-12 col-lg-6 d-flex flex-column justify-content-center mt-4 mt-lg-0">
+                            <div class="home__testimonios__conjunto__texto class col-12 col-lg-6 mt-4 mt-lg-0">
                                 <h3 class="home__testimonios__conjunto__texto__h3 fs-4 mb-4">"Infaltable el apoyo emocional de Gatumania en este proceso, además de que nos ayudo a elegir a una compañera que vaya mejor con la personalidad de Mish. Gracias Nati!"</h3>
                                 <h4 class="home__testimonios__conjunto__texto__h4 fs-5">María</h4>
                                 <p class="home__testimonios__conjunto__texto__p fs-5">Dueña de Venus</p>
@@ -123,17 +125,15 @@
                 <!--No supe como hacer el carousel aplicando bootstrap porque son solo para imagenes-->
             </section>
         </div>
-            <section class="home__video container my-4">
-                <h2 class="home__video__h2 display-5 text-center mb-4">Recomendaciones para 
+            <section class="home__video container paddingSeccion">
+                <h2 class="home__video__h2 display-5 text-center mb-5"><span class="tipoNegrita">Recomendaciones</span> para 
                 adoptar un michi</h2>
-                <div class="home__video__divVideo d-flex justify-content-center mb-5">
+                <div class="home__video__divVideo mb-5">
                      <iframe class="home__video__divVideo__video rounded-especifico" width="950" height="534" src="https://www.youtube.com/embed/mjequp9g-qY" title="Cómo Elegir A Qué Gatito Adoptar" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
                 </div>
             </section>
         </main>
-       
         <!--FOOTER-->
-
         <footer class="footer">
             <div class="footer__block1__Bg bgRosita py-4">
                 <div class="footer__block1 container">
@@ -166,5 +166,10 @@
         </footer>
         <!--BOOTSTRAP JAVASCRIPT-->
         <script src="./js/bootstrap.bundle.min.js"></script>
+        <!--AOS-->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>
