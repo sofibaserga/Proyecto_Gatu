@@ -200,6 +200,9 @@ p {
   white-space: pre-line;
 }
 
+.contacto {
+  overflow: hidden;
+}
 .contacto .contacto__bloqueFormulario .contacto__bloqueFormulario__titulo__h1 {
   font-weight: 300;
 }
