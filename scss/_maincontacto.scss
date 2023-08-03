@@ -1,4 +1,5 @@
 .contacto{
+    overflow: hidden;
     .contacto__bloqueFormulario{
         .contacto__bloqueFormulario__titulo__h1{
             font-weight: map-get($font-weight, bold);
