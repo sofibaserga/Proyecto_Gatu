@@ -1,4 +1,5 @@
 .ficha{
+    overflow: hidden;
     .ficha__bloque1{
         .ficha__bloque1__padreTxt__p{
             font-weight: map-get($font-weight, regular);

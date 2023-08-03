@@ -170,6 +170,9 @@ p {
     white-space: pre-line;
   }
 }
+.ficha {
+  overflow: hidden;
+}
 .ficha .ficha__bloque1 .ficha__bloque1__padreTxt__p {
   font-weight: 200;
   white-space: pre-line; /* no lo vimos en clase, pero encontre en chat gpt que se podia hacer*/
@@ -178,6 +181,9 @@ p {
   font-weight: 300;
 }
 
+.nosotros {
+  overflow: hidden;
+}
 .nosotros .nosotros__sobreGatumania .nosotros__sobreGatumania__padreTxt__h2 {
   font-weight: 300;
 }
@@ -204,6 +210,15 @@ p {
   font-weight: 300;
 }
 
+.cuatroCeroCuatro__info__contenedorImg {
+  width: 37rem;
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .cuatroCeroCuatro__info__contenedorImg {
+    width: 20rem;
+  }
+}
 .textRosa a {
   color: #DA8E9E;
 }/*# sourceMappingURL=estilos.css.map */
